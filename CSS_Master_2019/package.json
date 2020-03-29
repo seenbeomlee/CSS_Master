@@ -1,0 +1,19 @@
+{
+  "name": "CSS_Master_2019",
+  "version": "1.0.0",
+  "description": "Cloning some Webpages",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seenbeomlee/CSS_Master_2019.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seenbeomlee/CSS_Master_2019/issues"
+  },
+  "homepage": "https://github.com/seenbeomlee/CSS_Master_2019#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
