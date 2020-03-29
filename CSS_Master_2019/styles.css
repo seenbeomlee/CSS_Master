@@ -1,3 +1,17 @@
-body {
-  background-color: wheat;
+/*
+Match
+
+li:matches(:nth-child(even), .target) {
+  background-color: blue;
 }
+
+*/
+
+/*
+Not
+
+li:not(.target) {
+  background-color: blue;
+}
+
+*/

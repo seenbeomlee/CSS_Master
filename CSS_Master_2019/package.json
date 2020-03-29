@@ -1,5 +1,5 @@
 {
-  "name": "CSS_Master_2019",
+  "name": "css_master_2019",
   "version": "1.0.0",
   "description": "Cloning some Webpages",
   "repository": {
@@ -15,5 +15,15 @@
   "homepage": "https://github.com/seenbeomlee/CSS_Master_2019#readme",
   "scripts": {
     "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.7.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
   }
 }
