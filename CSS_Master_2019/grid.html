@@ -7,34 +7,48 @@
     <style>
       .father {
         display: grid;
-        grid-auto-rows: 200px;
-        grid-gap: 5px;
-        grid-template-columns: repeat(3, 1fr) 4fr;
+        grid-gap: 10px;
+        grid-auto-rows: 100px;
+        grid-template-columns: repeat(5, 1fr);
       }
 
-      .first {
-        background-color: #f1c40f;
+      .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
       }
 
-      .second {
-        background-color: #27ae60;
-      }
-
-      .third {
+      .box:nth-child(even) {
         background-color: #3498db;
       }
 
-      .fourth {
-        background-color: #d35400;
+      .box:nth-child(odd) {
+        background-color: #34495e;
+      }
+
+      .box:first-child {
+        grid-column: 1 / 3;
       }
     </style>
   </head>
   <body>
     <div class="father">
-      <div class="first"></div>
-      <div class="second"></div>
-      <div class="third"></div>
-      <div class="fourth"></div>
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+      <div class="box">11</div>
+      <div class="box">12</div>
+      <div class="box">13</div>
+      <div class="box">14</div>
+      <div class="box">15</div>
     </div>
   </body>
 </html>
