@@ -15,7 +15,8 @@ li:not(.target) {
 }
 
 */
-
+/*                                                  */
+/*
 :root {
   --awesomeColor: 1px solid red;
 }
@@ -28,4 +29,13 @@ li:first-child a {
 
 :--headers {
   color: #8e44ad;
+}
+*/
+
+@custom-media --ipad-size (450px < width <= 850px);
+
+@media (--ipad-size) {
+  body {
+    background-color: wheat;
+  }
 }
