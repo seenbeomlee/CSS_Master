@@ -32,10 +32,21 @@ li:first-child a {
 }
 */
 
+/*
+
 @custom-media --ipad-size (450px < width <= 850px);
 
 @media (--ipad-size) {
   body {
     background-color: wheat;
   }
+}
+
+*/
+h1 {
+  color: #f1c40f;
+}
+
+h1:hover {
+  color: color-mod(#f1c40f blackness(10%));
 }
