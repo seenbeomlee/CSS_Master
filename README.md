@@ -106,6 +106,15 @@ not은 해당속성을 제외하고 적용된다.
 [] color-mod, gray(), system-ui
 [] Nesting Rules
 
+---
+
+nesting rule을 사용하면 셀렉터를 더 줄일 수 있다.
+
+& 를 사용해 HTML 내부 태그처럼 CSS또한 트리구조로 정리 가능
+nesting selector는 매우 강력해서 덮어쓰기가 되지 않는다.
+(CSS에서는 더 자세할수록, 더 깊을수록 강력한 우선순위 code가 된다.)
+기존 CSS에서도 명확한 선택자가 우위를 선점했던 것가 같은 원리이다.
+
 Conclusions
 [] CSS Grid Kiss
 [] Practice Flexbox
